@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "work-sans";
+    src: url(Fonts/Work_Sans/WorkSans-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: "space-mono";
+    src: url(Fonts/Space_Mono/SpaceMono-Regular.ttf);
+  }
+}
+
+
+.left{
+  background: url(Pages/Login/images/login.png) no-repeat center center /cover;
+}
+
+footer a{
+  color: #CCCCCC;
+  font-size: 16px;
+  font-family: work-sans;
+  font-weight: 400;
+}
