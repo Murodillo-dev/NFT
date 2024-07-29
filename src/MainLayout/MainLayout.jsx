@@ -9,7 +9,7 @@ import youtube from "../Icons/youtube.png";
 const MainLayout = () => {
     return (
         <div>
-            <header className='sticky top-0'>
+            <header className='sticky top-0 z-10'>
                 <div className="flex justify-between items-center  bg-[#2B2B2B] flex-wrap px-[40px] py-5 max-ipad:px-5 max-other:justify-between max-mobile:p-2">
 
                     <div className="flex-1">
