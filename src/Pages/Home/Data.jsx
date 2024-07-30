@@ -13,7 +13,7 @@ import human1 from './Images/human1.png'
 import human2 from './Images/human2.png'
 import robot from './Images/robot.png'
 
-export const trending = [
+const trending = [
     {
         id: 1,
         mainImg: dog,
@@ -44,6 +44,93 @@ export const trending = [
         titleImgName: 'BeKind2Robots'
     }
 ]
-
 //================================================================================
 
+
+//================================================================================
+import keepitreal from './Images/keepitreal.png'
+import digilab from './Images/digilab.png'
+import gravityone from './Images/gravityone.png'
+import jaunie from './Images/jaunie.png'
+import bluewhale from './Images/bluewhale.png'
+import robotica from './Images/robotica.png'
+import animakid from './Images/animakid.png'
+import dotgu from './Images/dotgu.png'
+import ghiblier from './Images/ghiblier.png'
+
+const creators = [
+    {
+        id: 1,
+        img: keepitreal,
+        title: 'Keepitreal',
+        price: 34.53
+    },
+    {
+        id: 2,
+        img: digilab,
+        title: 'DigiLab',
+        price: 34.53
+    },
+    {
+        id: 3,
+        img: gravityone,
+        title: 'GravityOne',
+        price: 34.53
+    },
+    {
+        id: 4,
+        img: jaunie,
+        title: 'Juanie',
+        price: 34.53
+    },
+    {
+        id: 5,
+        img: bluewhale,
+        title: 'BlueWhale',
+        price: 34.53
+    },
+    {
+        id: 6,
+        img: fox,
+        title: 'Mr Fox',
+        price: 34.53
+    },
+    {
+        id: 7,
+        img: head,
+        title: 'Shroomie',
+        price: 34.53
+    },
+    {
+        id: 8,
+        img: robotica,
+        title: 'Robotica',
+        price: 34.53
+    },
+    {
+        id: 9,
+        img: robot,
+        title: 'RustyRobot',
+        price: 34.53
+    },
+    {
+        id: 10,
+        img: animakid,
+        title: 'AnimeKid',
+        price: 34.53
+    },
+    {
+        id: 11,
+        img: dotgu,
+        title: 'Dotgu',
+        price: 34.53
+    },
+    {
+        id: 12,
+        img: ghiblier,
+        title: 'Ghiblier',
+        price: 34.53
+    }
+]
+
+export {trending , creators}
