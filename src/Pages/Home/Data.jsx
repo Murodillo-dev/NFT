@@ -132,5 +132,33 @@ const creators = [
         price: 34.53
     }
 ]
+//================================================================================
 
-export {trending , creators}
+
+//================================================================================
+import art from './Images/art.png'
+import collectibles from './Images/collectibles.png'
+import music from './Images/music.png'
+import photography from './Images/photography.png'
+import video from './Images/video.png'
+import utility from './Images/utility.png'
+import sport from './Images/sport.png'
+import virtual from './Images/virtual.png'
+
+import PaintBrush from './Images/PaintBrush.png'
+import Swatches from './Images/Swatches.png'
+import MusicNotes from './Images/MusicNotes.png'
+import Camera from './Images/Camera.png'
+import VideoCamera from './Images/VideoCamera.png'
+import MagicWand from './Images/MagicWand.png'
+import Basketball from './Images/Basketball.png'
+import Planet from './Images/Planet.png'
+
+const categories = [
+    {
+        
+    }
+]
+
+
+export { trending, creators }
