@@ -156,9 +156,94 @@ import Planet from './Images/Planet.png'
 
 const categories = [
     {
-        
+        id: 1,
+        img: art,
+        icon: PaintBrush,
+        title: 'Art'
+    },
+    {
+        id: 2,
+        img: collectibles,
+        icon: Swatches,
+        title: 'Collectibles'
+    },
+    {
+        id: 3,
+        img: music,
+        icon: MusicNotes,
+        title: 'Music'
+    },
+    {
+        id: 4,
+        img: photography,
+        icon: Camera,
+        title: 'Camera'
+    },
+    {
+        id: 5,
+        img: video,
+        icon: VideoCamera,
+        title: 'Video'
+    },
+    {
+        id: 6,
+        img: utility,
+        icon: MagicWand,
+        title: 'Utility'
+    },
+    {
+        id: 7,
+        img: sport,
+        icon: Basketball,
+        title: 'Sport'
+    },
+    {
+        id: 8,
+        img: virtual,
+        icon: Planet,
+        title: 'Virtual Worlds'
+    }
+]
+//================================================================================
+
+
+//================================================================================
+import galaxy from './Images/galaxy.png'
+import life from './Images/life.png'
+import astro from './Images/astro.png'
+import moondancer from './Images/moondancer.png'
+import nebulakid from './Images/nebulakid.png'
+import spaceone from './Images/spaceone.png'
+
+const discover = [
+    {
+        id: 1,
+        image: galaxy,
+        smallImg: moondancer,
+        title: 'Distant Galaxy',
+        name:'MoonDancer',
+        price: 1.63,
+        bid: 0.33
+    },
+    {
+        id: 2,
+        image: life,
+        smallImg: nebulakid,
+        title: 'Life On Edena',
+        name:'NebulaKid',
+        price: 1.23,
+        bid: 0.55
+    },
+    {
+        id: 3,
+        image: astro,
+        smallImg: spaceone,
+        title: 'Distant Galaxy',
+        name:'Spaceone',
+        price: 2.50,
+        bid: 0.56
     }
 ]
 
 
-export { trending, creators }
+export { trending, creators, categories , discover }
