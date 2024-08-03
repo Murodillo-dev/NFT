@@ -6,6 +6,7 @@ const Home = () => {
     const [creator, setCreator] = useState(creators)
     const [categorie, setCategorie] = useState(categories)
     const [discovers, setDiscovers] = useState(discover)
+    
     return (
         <div className='bg-[#2B2B2B] '>
 
@@ -185,9 +186,41 @@ const Home = () => {
 
             </div>
 
-            <div></div>
+            <div className="highlight w-full h-[660px] flex justify-center items-center">
 
-        </div>
+                <div className='max-w-[300px] w-full p-[30px] rounded-[20px] text-center box-border  bg-[#3b3b3bd8] text-[35px] font-semibold font-[space-mono] text-white flex justify-between flex-wrap'>
+
+                    <h1 className='w-full text-[12px] font-normal mb-3'>Auction ends in:</h1>
+
+                    <h1 className='leading-[30px]'>
+                        59
+                        <br />
+                        <span className='text-[12px] font-normal'>Hours</span>
+                    </h1>
+
+                    <h1 className='leading-[30px]'>:</h1>
+
+                    <h1 className='leading-[30px]'>
+                        59
+                        <br />
+                        <span className='text-[12px] font-normal'>Mimutes</span>
+                    </h1>
+
+                    <h1 className='leading-[30px]'>:</h1>
+
+                    <h1 className='leading-[30px]'>
+                        59
+                        <br />
+                        <span className='text-[12px] font-normal'>Seconds</span>
+                    </h1>
+
+                </div>
+
+            </div>
+
+
+
+        </div >
     )
 }
 

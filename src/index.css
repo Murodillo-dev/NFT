@@ -14,14 +14,18 @@
   }
 }
 
-
-.left{
-  background: url(Pages/Login/images/login.png) no-repeat center center /cover;
+.left {
+  background: url(Pages/Login/images/login.png) no-repeat center center / cover;
 }
 
-footer a{
-  color: #CCCCCC;
+footer a {
+  color: #cccccc;
   font-size: 14px;
   font-family: work-sans;
   font-weight: 400;
+}
+
+.highlight {
+  background: linear-gradient(to top, #a259ff, #a159ff00),
+    url(Pages/Home/Images/highlight.png) no-repeat center center  /cover;
 }
