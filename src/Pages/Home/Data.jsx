@@ -221,7 +221,7 @@ const discover = [
         image: galaxy,
         smallImg: moondancer,
         title: 'Distant Galaxy',
-        name:'MoonDancer',
+        name: 'MoonDancer',
         price: 1.63,
         bid: 0.33
     },
@@ -230,7 +230,7 @@ const discover = [
         image: life,
         smallImg: nebulakid,
         title: 'Life On Edena',
-        name:'NebulaKid',
+        name: 'NebulaKid',
         price: 1.23,
         bid: 0.55
     },
@@ -239,11 +239,37 @@ const discover = [
         image: astro,
         smallImg: spaceone,
         title: 'Distant Galaxy',
-        name:'Spaceone',
+        name: 'Spaceone',
         price: 2.50,
         bid: 0.56
     }
 ]
+//================================================================================
 
 
-export { trending, creators, categories , discover }
+//================================================================================
+import setupIcon from './Images/setupIcon.png'
+import createICon from './Images/createIcon.png'
+import startIcon from './Images/startIcon.png'
+const icons = [
+    {
+        id: 1,
+        iconImg: setupIcon,
+        title: 'Setup Your wallet',
+        info: 'Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.'
+    },
+    {
+        id: 2,
+        iconImg: createICon,
+        title: 'Create Collection',
+        info: 'Upload your work and setup your collection. Add a description, social links and floor price.'
+    },
+    {
+        id: 3,
+        iconImg: startIcon,
+        title: 'Start Earning',
+        info: 'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.'
+    }
+]
+
+export { trending, creators, categories, discover,icons }

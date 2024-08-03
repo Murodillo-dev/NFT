@@ -1,12 +1,17 @@
 import React, { useState } from 'react'
-import { trending, creators, categories, discover } from './Data'
+import { trending, creators, categories, discover, icons } from './Data'
 
 const Home = () => {
     const [data, setData] = useState(trending)
     const [creator, setCreator] = useState(creators)
     const [categorie, setCategorie] = useState(categories)
     const [discovers, setDiscovers] = useState(discover)
-    
+    const [icon, setIcon] = useState(icons)
+    const [hours, setHours] = useState(59)
+    const [minutes, setMinutes] = useState(59)
+    const [seconds, setSeconds] = useState(59)
+
+
     return (
         <div className='bg-[#2B2B2B] '>
 
@@ -193,7 +198,7 @@ const Home = () => {
                     <h1 className='w-full text-[12px] font-normal mb-3'>Auction ends in:</h1>
 
                     <h1 className='leading-[30px]'>
-                        59
+                        {hours}
                         <br />
                         <span className='text-[12px] font-normal'>Hours</span>
                     </h1>
@@ -201,7 +206,7 @@ const Home = () => {
                     <h1 className='leading-[30px]'>:</h1>
 
                     <h1 className='leading-[30px]'>
-                        59
+                        {minutes}
                         <br />
                         <span className='text-[12px] font-normal'>Mimutes</span>
                     </h1>
@@ -209,7 +214,7 @@ const Home = () => {
                     <h1 className='leading-[30px]'>:</h1>
 
                     <h1 className='leading-[30px]'>
-                        59
+                        {seconds}
                         <br />
                         <span className='text-[12px] font-normal'>Seconds</span>
                     </h1>
@@ -218,7 +223,22 @@ const Home = () => {
 
             </div>
 
+            <div className='py-20 px-[155px] font-[work-sans] text-white'>
 
+                <h1 className='text-[38px] font-semibold'>How it works</h1>
+                <p className='text-[22px] text-[#FFFFFF] font-normal mt-2'>Find out how to get started</p>
+
+                <div>
+                    {
+                        icon.map(value=>{
+                            return(
+                                <div></div>
+                            )
+                        })
+                    }
+                </div>
+
+            </div>
 
         </div >
     )
