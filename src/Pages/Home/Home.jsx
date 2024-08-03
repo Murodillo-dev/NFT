@@ -228,11 +228,16 @@ const Home = () => {
                 <h1 className='text-[38px] font-semibold'>How it works</h1>
                 <p className='text-[22px] text-[#FFFFFF] font-normal mt-2'>Find out how to get started</p>
 
-                <div>
+                <div className='flex justify-between'>
                     {
-                        icon.map(value=>{
-                            return(
-                                <div></div>
+                        icon.map(value => {
+                            return (
+                                <div className='px-10 text-center font-[work-sans] py-5 bg-[#3B3B3B] w-[30%] rounded-[20px] mt-12 hover:scale-95 ease-linear duration-200   '>
+                                    <img className='w-full' src={value.iconImg} alt="" />
+                                    <h1 className='text-[22px] font-semibold'>{value.title}</h1>
+                                    <h2 className='text-[16px] font-normal mt-[10px]'>{value.info}</h2>
+
+                                </div>
                             )
                         })
                     }
