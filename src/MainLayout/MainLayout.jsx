@@ -26,17 +26,17 @@ const MainLayout = () => {
                     <div className="flex-none max-other:hidden">
                         <ul className="flex justify-start items-center gap-3 text-white font-[work-sans] font-[600] text-[14px] max-ipad:gap-0 ">
                             <li>
-                                <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                <a className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
                                     Marketplace
                                 </a>
                             </li>
                             <li>
-                                <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                <a className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
                                     Rankings
                                 </a>
                             </li>
                             <li>
-                                <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                <a className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
                                     Connect a wallet
                                 </a>
                             </li>

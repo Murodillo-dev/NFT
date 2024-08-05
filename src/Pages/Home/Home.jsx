@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { trending, creators, categories, discover, icons } from './Data'
+import astranout from './Images/astranout.png'
 
 const Home = () => {
     const [data, setData] = useState(trending)
@@ -243,6 +244,36 @@ const Home = () => {
                     }
                 </div>
 
+            </div>
+
+            <div className='py-20 px-[155px] font-[work-sans] text-white' >
+                <div className='w-full h-auto p-[60px] bg-[#3B3B3B] rounded-[20px] flex justify-between flex-wrap'>
+
+                    <div className='max-w-[425px] w-full h-[310px]' style={{ background: `url(${astranout})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
+
+                    <div className='max-w-[425px] w-full h-auto py-5'>
+
+                        <h1 className='text-[40px] font-semibold leading-[45px]'>
+                            Join our weekly digest
+                        </h1>
+                        <h2 className='text-[22px] font-normal mt-3'>
+                            Get exclusive promotions & updates straight to your inbox.
+                        </h2>
+
+                        <div className="join mt-10">
+                            <input
+                                type="text"
+                                placeholder="Enter your email here"
+                                className="input input-bordered join-item rounded-[15px] h-[60px] max-meduim:max-w-[250px] w-full"
+                            />
+                            <div className="join">
+                                <button className="btn h-[60px] rounded-[20px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] join-item font-[work-sans] text-white px-[50px] py-5 max-meduim:max-w-[50px] w-full">Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
 
         </div >
