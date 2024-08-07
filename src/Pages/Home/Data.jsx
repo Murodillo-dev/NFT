@@ -92,7 +92,7 @@ const creators = [
     {
         id: 6,
         img: fox,
-        title: 'Mr Fox',
+        title: 'MrFox',
         price: 34.53
     },
     {
@@ -272,4 +272,4 @@ const icons = [
     }
 ]
 
-export { trending, creators, categories, discover,icons }
+export { trending, creators, categories, discover, icons }
