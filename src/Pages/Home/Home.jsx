@@ -261,7 +261,7 @@ const Home = () => {
 
             </div>
 
-            <div className='py-20 px-[155px] font-[work-sans] text-white max-desktop:px-20 max-laptop:px-10 max-ipad:p-10 max-meduim:text-center'>
+            <div className='py-20 px-[155px] font-[work-sans] text-white max-desktop:px-20 max-laptop:px-10 max-ipad:p-10 max-meduim:text-center max-mobile:px-5 max-mobile:py-10'>
 
                 <h1 className='text-[38px] font-semibold max-meduim:text-[30px]'>How it works</h1>
                 <p className='text-[22px] text-[#FFFFFF] font-normal mt-2 max-meduim:text-[16px]'>Find out how to get started</p>
@@ -270,11 +270,11 @@ const Home = () => {
                     {
                         icon.map(value => {
                             return (
-                                <div className='px-10 text-center font-[work-sans] py-5 bg-[#3B3B3B] w-[30%] rounded-[20px] mt-12 hover:scale-95 ease-linear duration-200  max-ipad:px-2 max-large:w-[32%] max-tablet:w-[70%] max-tablet:flex justify-between'>
+                                <div className='px-10 text-center font-[work-sans] py-5 bg-[#3B3B3B] w-[30%] rounded-[20px] mt-12 hover:scale-95 ease-linear duration-200  max-ipad:px-2 max-large:w-[32%] max-tablet:w-[70%] max-tablet:flex justify-between max-meduim:w-[90%] max-meduim:items-center max-mobile:w-full'>
                                     <img className='w-full max-tablet:w-24 max-tablet:h-24' src={value.iconImg} alt="" />
 
                                     <div className='max-tablet:text-left max-tablet:px-5'>
-                                        <h1 className='text-[22px] font-semibold max-other:text-[19px] max-large:text-[16px] max-tablet:text-[19px]'>{value.title}</h1>
+                                        <h1 className='text-[22px] font-semibold max-other:text-[19px] max-large:text-[16px] max-tablet:text-[19px] max-meduim:text-[16px]'>{value.title}</h1>
                                         <h2 className='text-[16px] font-normal mt-[10px] max-other:text-[14px] max-large:text-[12px]'>{value.info}</h2>
                                     </div>
 
@@ -287,11 +287,11 @@ const Home = () => {
             </div>
 
             <div className='py-20 px-[155px] font-[work-sans] text-white max-desktop:px-20 max-laptop:px-10' >
-                <div className='w-full h-auto p-[60px] bg-[#3B3B3B] rounded-[20px] flex justify-between flex-wrap'>
+                <div className='w-full h-auto p-[60px] bg-[#3B3B3B] rounded-[20px] flex justify-between flex-wrap max-desktop:p-[30px] max-ipad:flex-col items-center bg-transparent' >
 
-                    <div className='max-w-[425px] w-full h-[310px]' style={{ background: `url(${astranout})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
+                    <div className=' rounded-[20px] max-w-[400px] w-full h-[300px] max-ipad:max-w-[450px] max-ipad:h-[350px]' style={{ background: `url(${astranout})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
 
-                    <div className='max-w-[425px] w-full h-auto py-5'>
+                    <div className='max-w-[425px] w-full h-auto py-5 max-ipad:text-center mt-5'>
 
                         <h1 className='text-[40px] font-semibold leading-[45px]'>
                             Join our weekly digest
