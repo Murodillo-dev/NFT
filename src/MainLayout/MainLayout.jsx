@@ -9,7 +9,7 @@ import youtube from "../Icons/youtube.png";
 const MainLayout = () => {
     return (
         <div>
-            
+
             <header className='sticky top-0 z-10'>
 
                 <div className="flex justify-between items-center  bg-[#2B2B2B] flex-wrap px-[40px] py-5 max-ipad:px-5 max-other:justify-between max-mobile:p-2">
@@ -36,9 +36,9 @@ const MainLayout = () => {
                                 </a>
                             </li>
                             <li>
-                                <a className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
+                                <NavLink to='wallet' className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
                                     Connect a wallet
-                                </a>
+                                </NavLink>
                             </li>
                             <li>
                                 <NavLink to='signup' className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]">
