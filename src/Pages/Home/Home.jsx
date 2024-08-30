@@ -286,17 +286,17 @@ const Home = () => {
 
             </div>
 
-            <div className='py-20 px-[155px] font-[work-sans] text-white max-desktop:px-20 max-laptop:px-10' >
-                <div className='w-full h-auto p-[60px] bg-[#3B3B3B] rounded-[20px] flex justify-between flex-wrap max-desktop:p-[30px] max-ipad:flex-col items-center bg-transparent' >
+            <div className='py-20 px-[155px] font-[work-sans] text-white max-desktop:px-20 max-laptop:px-10 max-ipad:p-10' >
+                <div className='w-full h-auto p-[60px] bg-[#3B3B3B] rounded-[20px] flex justify-between flex-wrap max-desktop:p-[30px] max-ipad:flex-col items-center max-ipad:bg-transparent max-meduim:p-0 ' >
 
                     <div className=' rounded-[20px] max-w-[400px] w-full h-[300px] max-ipad:max-w-[450px] max-ipad:h-[350px]' style={{ background: `url(${astranout})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center center', backgroundSize: 'cover' }}></div>
 
                     <div className='max-w-[425px] w-full h-auto py-5 max-ipad:text-center mt-5'>
 
-                        <h1 className='text-[40px] font-semibold leading-[45px]'>
+                        <h1 className='text-[40px] font-semibold leading-[45px] max-meduim:text-[30px]'>
                             Join our weekly digest
                         </h1>
-                        <h2 className='text-[22px] font-normal mt-3'>
+                        <h2 className='text-[22px] font-normal mt-3 max-meduim:text-[16px]'>
                             Get exclusive promotions & updates straight to your inbox.
                         </h2>
 
