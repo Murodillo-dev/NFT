@@ -16,12 +16,12 @@ const App = () => {
           element: <Login />
         },
         {
-          path:'signup',
-          element:<Register/>
+          path: 'signup',
+          element: <Register />
         },
         {
-          path:'home',
-          element:<Home/>
+          path: 'home',
+          element: <Home />
         }
       ]
     }
