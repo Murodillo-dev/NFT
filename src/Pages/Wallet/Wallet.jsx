@@ -1,5 +1,9 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import coinbase from './images/Coinbase.png'
+import metamask from './images/Metamask.png'
+import connect from './images/WalletConnect.png'
+
 const Wallet = () => {
     return (
         <div className="w-full h-auto bg-[#2B2B2B] ">
@@ -12,22 +16,14 @@ const Wallet = () => {
                     <h1 className="font-[work-sans] text-[51px] text-white font-[600] max-other:text-[40px] max-meduim:text-[36px] max-small:text-[25px]">
                         Connect wallet
                     </h1>
-                    <p className="font-[work-sans] text-[22px] text-white max-w-[460px] w-full mt-5 font-[400] max-other:text-[19px] max-meduim:text-[16px] max-small:text-[13px    ]">
+                    <p className="font-[work-sans] mb-5 text-[22px] text-white max-w-[460px] w-full mt-5 font-[400] max-other:text-[19px] max-meduim:text-[16px] max-small:text-[13px    ]">
                         Choose a wallet you want to connect. There are several wallet providers.
                     </p>
 
-                    <label className=" max-w-[330px] rounded-[20px] mt-[15px] w-full h-[45px] input input-bordered flex items-center gap-2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 16 16"
-                            fill="currentColor"
-                            className="h-4 w-4 opacity-70"
-                        >
-                            <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
-                            <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
-                        </svg>
-                        <input type="email" className="grow" placeholder="Email Address" />
-                    </label>
+                    <a className="max-w-[330px] bg-[#3B3B3B] rounded-[20px] mt-[15px] w-full py-10 input input-bordered flex items-center gap-2">
+                       <img src={metamask} alt="" />
+                       <span>Metamask</span>
+                    </a>
 
                     <label className=" max-w-[330px] rounded-[20px] mt-[15px] w-full h-[45px] input input-bordered flex items-center gap-2">
                         <svg
