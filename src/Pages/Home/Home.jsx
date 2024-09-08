@@ -234,7 +234,7 @@ const Home = () => {
                 <div className='max-w-[300px] w-full p-[30px] rounded-[20px] text-center box-border  bg-[#3b3b3bd8] text-[35px] font-semibold font-[space-mono] text-white flex justify-between flex-wrap'>
 
                     <h1 className='w-full text-[12px] font-normal mb-3'>Auction ends in:</h1>
-
+                    
                     <h1 className='leading-[30px]'>
                         {hours}
                         <br />
