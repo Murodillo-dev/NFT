@@ -79,12 +79,13 @@ const Register = () => {
             />
           </label>
 
-          <NavLink to='/' className="font-[work-sans] block text-center text-[18px] leading-[45px] text-[16px] max-w-[330px] rounded-[20px] mt-[15px] w-full h-[45px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] text-white">
-            Log In
-          </NavLink>
           <button className="font-[work-sans] text-[16px] max-w-[330px] rounded-[20px] mt-[15px] text-[18px] w-full h-[45px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] text-white">
             Create account
           </button>
+
+          <NavLink to='/' className="font-[work-sans] block text-center text-[18px] leading-[45px] text-[16px] max-w-[330px] rounded-[20px] mt-[15px] w-full h-[45px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] text-white">
+            Sign In
+          </NavLink>
         </div>
 
       </div>

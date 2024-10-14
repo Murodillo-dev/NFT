@@ -71,13 +71,13 @@ const MainLayout = () => {
                             </label>
                         </div>
 
-                        <div className="drawer-side pt-4 ">
+                        <div className="drawer-side pt-4">
                             <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu rounded-l-3xl bg-[#2b2b2bf9] text-white text-base-content min-h-full w-80 p-4 text-black font-[work-sans] font-[600] text-[14px] max-ipad:gap-0 max-meduim:w-[75%] ">
                                 <li>
-                                    <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                    <NavLink to='home' className="px-5 py-3 max-ipad:px-3 py-3 " href="">
                                         Marketplace
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
@@ -85,9 +85,9 @@ const MainLayout = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                    <NavLink  to='wallet' className="px-5 py-3 max-ipad:px-3 py-3 " href="">
                                         Connect a wallet
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <NavLink to='signup' className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]">

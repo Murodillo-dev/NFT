@@ -345,6 +345,7 @@ const Wallet = () => {
               Metamask
             </span>
           </a>
+          
         </div>
       </div>
     </div>
