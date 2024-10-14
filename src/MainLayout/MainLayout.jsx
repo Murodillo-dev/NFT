@@ -1,5 +1,5 @@
-import React from 'react'
-import { Outlet, NavLink } from 'react-router-dom'
+import React from "react";
+import { Outlet, NavLink } from "react-router-dom";
 import logo from "../Icons/Storefront.png";
 import discord from "../Icons/discord.png";
 import instagram from "../Icons/instagram.png";
@@ -9,14 +9,15 @@ import youtube from "../Icons/youtube.png";
 const MainLayout = () => {
     return (
         <div>
-
-            <header className='sticky top-0 z-10'>
-
+            <header className="sticky top-0 z-10">
                 <div className="flex justify-between items-center  bg-[#2B2B2B] flex-wrap px-[40px] py-5 max-ipad:px-5 max-other:justify-between max-mobile:p-2">
-
                     <div className="flex-1">
                         <a className="btn btn-ghost text-xl max-ipad:p-0 max-meduim:text-[16px] max-mobile:text-[14px]">
-                            <img src={logo} alt="" className="max-meduim:w-6 max-mobile:w-5" />
+                            <img
+                                src={logo}
+                                alt=""
+                                className="max-meduim:w-6 max-mobile:w-5"
+                            />
                             <span className="text-white font-[space-mono]">
                                 NFT Marketplace
                             </span>
@@ -26,7 +27,11 @@ const MainLayout = () => {
                     <div className="flex-none max-other:hidden">
                         <ul className="flex justify-start items-center gap-3 text-white font-[work-sans] font-[600] text-[14px] max-ipad:gap-0 ">
                             <li>
-                                <NavLink to='home' className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
+                                <NavLink
+                                    to="home"
+                                    className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 "
+                                    href=""
+                                >
                                     Marketplace
                                 </NavLink>
                             </li>
@@ -36,12 +41,19 @@ const MainLayout = () => {
                                 </a>
                             </li>
                             <li>
-                                <NavLink to='wallet' className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 " href="">
+                                <NavLink
+                                    to="wallet"
+                                    className="px-5 py-3 max-ipad:px-3 max-ipad:py-3 "
+                                    href=""
+                                >
                                     Connect a wallet
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to='signup' className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]">
+                                <NavLink
+                                    to="signup"
+                                    className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]"
+                                >
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         className="h-5 w-5"
@@ -72,10 +84,18 @@ const MainLayout = () => {
                         </div>
 
                         <div className="drawer-side pt-4">
-                            <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                            <label
+                                htmlFor="my-drawer-4"
+                                aria-label="close sidebar"
+                                className="drawer-overlay"
+                            ></label>
                             <ul className="menu rounded-l-3xl bg-[#2b2b2bf9] text-white text-base-content min-h-full w-80 p-4 text-black font-[work-sans] font-[600] text-[14px] max-ipad:gap-0 max-meduim:w-[75%] ">
                                 <li>
-                                    <NavLink to='home' className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                    <NavLink
+                                        to="home"
+                                        className="px-5 py-3 max-ipad:px-3 py-3 "
+                                        href=""
+                                    >
                                         Marketplace
                                     </NavLink>
                                 </li>
@@ -85,12 +105,19 @@ const MainLayout = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <NavLink  to='wallet' className="px-5 py-3 max-ipad:px-3 py-3 " href="">
+                                    <NavLink
+                                        to="wallet"
+                                        className="px-5 py-3 max-ipad:px-3 py-3 "
+                                        href=""
+                                    >
                                         Connect a wallet
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='signup' className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]">
+                                    <NavLink
+                                        to="signup"
+                                        className="flex gap-3 text-[14px] px-[30px] rounded-[20px] py-5 box-border bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF]"
+                                    >
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             className="h-5 w-5"
@@ -111,9 +138,7 @@ const MainLayout = () => {
                             </ul>
                         </div>
                     </div>
-
                 </div>
-
             </header>
 
             <main>
@@ -173,15 +198,16 @@ const MainLayout = () => {
                                 className="input input-bordered join-item rounded-[15px] h-[60px] max-meduim:max-w-[250px] w-full"
                             />
                             <div className="join">
-                                <button className="btn h-[60px] rounded-[20px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] join-item font-[work-sans] text-white px-[50px] py-5 max-meduim:max-w-[50px] w-full">Subscribe</button>
+                                <button className="btn h-[60px] rounded-[20px] bg-[#A259FF] hover:bg-[#A259FF] active:bg-[#A259FF] join-item font-[work-sans] text-white px-[50px] py-5 max-meduim:max-w-[50px] w-full">
+                                    Subscribe
+                                </button>
                             </div>
                         </div>
                     </fieldset>
                 </form>
             </footer>
-
         </div>
-    )
-}
+    );
+};
 
-export default MainLayout
+export default MainLayout;
